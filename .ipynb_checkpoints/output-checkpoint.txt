@@ -1,0 +1,22 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/agamree> foaf:knows <http://example.org/Abdominal>,
+        <http://example.org/Cushingoid>,
+        <http://example.org/Diarrhoea>,
+        <http://example.org/Headache>,
+        <http://example.org/Irritability>,
+        <http://example.org/Vomiting> .
+
+<http://example.org/Abdominal> foaf:knows "Common"^^xsd:string .
+
+<http://example.org/Cushingoid> foaf:knows "Very common"^^xsd:string .
+
+<http://example.org/Diarrhoea> foaf:knows "Common"^^xsd:string .
+
+<http://example.org/Headache> foaf:knows "Common"^^xsd:string .
+
+<http://example.org/Irritability> foaf:knows "Very common"^^xsd:string .
+
+<http://example.org/Vomiting> foaf:knows "Very common"^^xsd:string .
+
